@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings srvpackid="ONECELL5GDU" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ServiceAreaDefinition useprofile="base">
+        <ServiceAreas>
+            <ServiceArea type="OperatorSpecific" value="MinimumPnP">
+                <GNBId value="1234"/>
+                <GNBName value="dev-123"/>
+                <GNBIdLength value="26"/>
+                <EPF1C id="1">
+                    <RemoteAddress value="10.211.55.15"/>
+                </EPF1C>
+                <HeartBeatPeriod value="5"/>
+                <vesURL value="http://10.212.2.11:7001/eventListener/v7"/>
+                <vesUserName value="dmsadmin"/>
+                <vesPassWord value="password123"/>
+                <ConfigurableCells value="cellindex_1,cellindex_2"/>
+                <NRCellDU id="cellindex_1">
+                    <CellLocalId value="1684"/>
+                    <NRPCI value="12"/>
+                    <ARFCNDL value="1212"/>
+                    <ARFCNUL value="12"/>
+                    <BSChannelBwDL value="12"/>
+                    <BSChannelBwUL value="12"/>
+                    <NRFreqBandDL value="12"/>
+                    <RootSequenceIndex value="12"/>
+                    <PLMNInfoList>
+                        <Enable value="true"/>
+                        <MCC value="507"/>
+                        <MNC value="94"/>
+                        <isPrimary value="true"/>
+                    </PLMNInfoList>
+                </NRCellDU>
+                <NRCellDU id="cellindex_2">
+                    <CellLocalId value="1234"/>
+                    <NRPCI value="13"/>
+                    <ARFCNDL value="87128"/>
+                    <ARFCNUL value="16"/>
+                    <BSChannelBwDL value="17"/>
+                    <BSChannelBwUL value="18"/>
+                    <NRFreqBandDL value="87"/>
+                    <RootSequenceIndex value="13"/>
+                    <PLMNInfoList>
+                        <Enable value="true"/>
+                        <MCC value="607"/>
+                        <MNC value="64"/>
+                        <isPrimary value="true"/>
+                    </PLMNInfoList>
+                </NRCellDU>
+            </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>
+</ServiceAreaSettings>

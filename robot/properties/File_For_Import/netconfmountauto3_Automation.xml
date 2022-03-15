@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<netconf-device>
+    <deviceList>
+        <device>
+            <id>auto3-3101cucp1</id>
+            <oui>0005B9</oui>
+            <productClass>CS_ONECELL_CU-CP</productClass>
+            <ipaddress>10.212.2.22</ipaddress>
+            <port>31011</port>
+            <swVersion>6.0.6</swVersion>
+            <userName>admin</userName>
+            <key>
+                <password>admin</password>
+            </key>
+        </device>
+        <device>
+            <id>auto3-3101cuup1</id>
+            <oui>0005B9</oui>
+            <productClass>CS_ONECELL_CU-UP</productClass>
+            <ipaddress>10.212.2.22</ipaddress>
+            <port>31012</port>
+            <swVersion>6.0.6</swVersion>
+            <userName>admin</userName>
+            <key>
+                <password>admin</password>             
+            </key>
+        </device>
+        <device>
+            <id>auto3-3101du1</id>
+            <oui>0005B9</oui>
+            <productClass>CS_ONECELL_DU</productClass>
+            <ipaddress>10.212.2.22</ipaddress>
+            <port>31013</port>
+            <swVersion>6.0.6</swVersion>
+            <userName>admin</userName>
+            <key>
+                <password>admin</password>
+            </key>
+        </device>
+    </deviceList>
+</netconf-device>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" srvpackid="ONECELL5GDU" >
+	<ServiceAreaDefinition useprofile="base">
+		<ServiceAreas>
+			<ServiceArea type="OperatorSpecific" value="drop2-3031du1">
+				<GNBId value="3031"></GNBId>
+				<EPF1C id="1">
+					<RemoteAddress value="2001:4000:aa:31::1"></RemoteAddress>
+				</EPF1C>
+				<ConfigurableCells value="cellindex_1"></ConfigurableCells>
+				<NRCellDU id="cellindex_1">
+					<PLMNInfoList>
+						<MCC value="311"></MCC>
+						<MNC value="180"></MNC>
+						<Enable value="true"></Enable>
+						<isPrimary value="true"></isPrimary>
+					</PLMNInfoList>
+					<CellLocalId value="1"></CellLocalId>
+					<NRPCI value="1006"></NRPCI>
+					<ARFCNDL value="433000"></ARFCNDL>
+					<ARFCNUL value="353000"></ARFCNUL>
+					<BSChannelBwDL value="20"></BSChannelBwDL>
+					<BSChannelBwUL value="20"></BSChannelBwUL>
+					<NRFreqBandDL value="66"></NRFreqBandDL>
+					<RootSequenceIndex value="100"></RootSequenceIndex>
+				</NRCellDU>
+			</ServiceArea>
+		</ServiceAreas>
+	</ServiceAreaDefinition>
+</ServiceAreaSettings>

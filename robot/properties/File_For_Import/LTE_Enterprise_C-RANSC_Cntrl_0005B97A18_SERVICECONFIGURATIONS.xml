@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configDataFile xmlns:xs="http://www.3gpp.org/ftp/specs/archive/32_series/32.584#configData">
+  <fileHeader fileFormatVersion="32.594 V14.0.0" vendorName="Commscope"/>
+  <configData>
+    <managedElement swVersion="5.5.00.100" localDn="0005B97A18" hwVersion="750742.00.13" ProductClass="LTE_Enterprise_C-RANSC_Cntrl" OUI="0005B9"/>
+    <Device>
+	  <!--<CurrentValue>86</CurrentValue>
+	  <DateOfNextAdjustment>2021-06-30</DateOfNextAdjustment>
+	  <NextValue>87</NextValue>-->
+	  <DeviceInfo>
+        <X_0005B9_DebugFeature>
+          <CrashLogCollectionLevel>0</CrashLogCollectionLevel>
+          <CrashLogCollectionType>0</CrashLogCollectionType>
+          <DebugMode>1</DebugMode>
+          <DisableSelfHealing>0</DisableSelfHealing>
+          <EnableICMP>0</EnableICMP>
+          <SelfHealingRebootWindow>0</SelfHealingRebootWindow>
+          <SilentMonitorInterval>10</SilentMonitorInterval>
+          <SilentMonitorMinRachAttempt>100</SilentMonitorMinRachAttempt>
+        </X_0005B9_DebugFeature>
+      </DeviceInfo>
+      <FAP>
+        <GPS>
+          <AGPSServerConfig>
+            <ServerURL>NONE</ServerURL>
+          </AGPSServerConfig>
+          <X_0005B9_NominalGPS>
+            <Altitude>760</Altitude>
+            <Confidence>50</Confidence>
+            <DegreesOfLatitude>1204639</DegreesOfLatitude>
+            <DegreesOfLongitude>3619721</DegreesOfLongitude>
+            <DirectionOfAltitude>Height</DirectionOfAltitude>
+            <LatitudeSign>North</LatitudeSign>
+            <OrientationOfMajorAxis>98</OrientationOfMajorAxis>
+            <UncertaintyAltitude>36</UncertaintyAltitude>
+            <UncertaintySemiMajor>45</UncertaintySemiMajor>
+            <UncertaintySemiMinor>14</UncertaintySemiMinor>
+          </X_0005B9_NominalGPS>
+        </GPS>
+        <X_0005B9_FileTransfersEnh index="1">
+          <FileDetails index="1">
+            <Enable>1</Enable>
+            <FileCompressionEnable>0</FileCompressionEnable>
+            <FileCompressionType>zip</FileCompressionType>
+            <FileName>SERVICECONFIG</FileName>
+            <IncludeRadioPointLog>1</IncludeRadioPointLog>
+            <LocationOnServer>/opt/hdm/logs/device/logs/onecell/0005B9/0005B942/0005B942CD/0005B942CDC2/</LocationOnServer>
+            <TransferType>UPLOAD</TransferType>
+            <TransferWindowDuration>60</TransferWindowDuration>
+            <TransferWindowInterval>96400</TransferWindowInterval>
+            <TransferWindowStartTime>11:00</TransferWindowStartTime>
+          </FileDetails>
+          <FileDetails index="2">
+            <Enable>1</Enable>
+            <FileCompressionEnable>1</FileCompressionEnable>
+            <FileCompressionType>zip</FileCompressionType>
+            <FileName>PERFORMANCE</FileName>
+            <IncludeRadioPointLog>1</IncludeRadioPointLog>
+            <LocationOnServer>/opt/hdm/logs/device/logs/onecell/0005B9/0005B942/0005B942CD/0005B942CDC2/</LocationOnServer>
+            <TransferType>UPLOAD</TransferType>
+            <TransferWindowDuration>60</TransferWindowDuration>
+            <TransferWindowInterval>96400</TransferWindowInterval>
+            <TransferWindowStartTime>11:00</TransferWindowStartTime>
+          </FileDetails>
+          <FileDetails index="3">
+            <Enable>1</Enable>
+            <FileCompressionEnable>1</FileCompressionEnable>
+            <FileCompressionType>zip</FileCompressionType>
+            <FileName>ALARM</FileName>
+            <LocationOnServer>/opt/hdm/logs/device/logs/onecell/0005B9/0005B942/0005B942CD/0005B942CDC2/</LocationOnServer>
+            <TransferType>UPLOAD</TransferType>
+            <TransferWindowDuration>60</TransferWindowDuration>
+            <TransferWindowInterval>96400</TransferWindowInterval>
+            <TransferWindowStartTime>11:00</TransferWindowStartTime>
+          </FileDetails>
+          <FileDetails index="4">
+            <Enable>1</Enable>
+            <FileCompressionEnable>1</FileCompressionEnable>
+            <FileCompressionType>zip</FileCompressionType>
+            <FileName>ACTIVITY</FileName>
+            <LocationOnServer>/opt/hdm/logs/device/logs/onecell/0005B9/0005B942/0005B942CD/0005B942CDC2/</LocationOnServer>
+            <TransferType>UPLOAD</TransferType>
+            <TransferWindowDuration>60</TransferWindowDuration>
+            <TransferWindowInterval>96400</TransferWindowInterval>
+            <TransferWindowStartTime>11:00</TransferWindowStartTime>
+          </FileDetails>
+          <FileDetails index="5">
+            <Enable>1</Enable>
+            <FileCompressionEnable>1</FileCompressionEnable>
+            <FileCompressionType>zip</FileCompressionType>
+            <FileName>DEBUG</FileName>
+            <IncludeRadioPointLog>1</IncludeRadioPointLog>
+            <LocationOnServer>/opt/hdm/logs/device/logs/onecell/0005B9/0005B942/0005B942CD/0005B942CDC2/</LocationOnServer>
+            <TransferType>UPLOAD</TransferType>
+            <TransferWindowDuration>60</TransferWindowDuration>
+            <TransferWindowInterval>96400</TransferWindowInterval>
+            <TransferWindowStartTime>11:00</TransferWindowStartTime>
+          </FileDetails>
+          <FileDetails index="6">
+            <Enable>1</Enable>
+            <FileCompressionEnable>1</FileCompressionEnable>
+            <FileCompressionType>zip</FileCompressionType>
+            <FileName>FAILUREEVENT</FileName>
+            <IncludeRadioPointLog>1</IncludeRadioPointLog>
+            <LocationOnServer>/opt/hdm/logs/device/logs/onecell/0005B9/0005B942/0005B942CD/0005B942CDC2/</LocationOnServer>
+            <TransferType>UPLOAD</TransferType>
+            <TransferWindowDuration>60</TransferWindowDuration>
+            <TransferWindowInterval>96400</TransferWindowInterval>
+            <TransferWindowStartTime>11:00</TransferWindowStartTime>
+          </FileDetails>
+		  <FileDetails index="7">
+            <Enable>1</Enable>
+            <FileCompressionEnable>1</FileCompressionEnable>
+            <FileCompressionType>zip</FileCompressionType>
+            <FileName>CMAS_EVENT_REPORTS</FileName>
+            <IncludeRadioPointLog>1</IncludeRadioPointLog>
+            <LocationOnServer>/opt/hdm/logs/device/logs/onecell/0005B9/0005B942/0005B942CD/0005B942CDC2/</LocationOnServer>
+            <TransferType>UPLOAD</TransferType>
+            <TransferWindowDuration>60</TransferWindowDuration>
+            <TransferWindowInterval>96400</TransferWindowInterval>
+            <TransferWindowStartTime>11:00</TransferWindowStartTime>
+          </FileDetails>
+		  <FileDetails index="8">
+            <Enable>1</Enable>
+            <FileCompressionEnable>1</FileCompressionEnable>
+            <FileCompressionType>zip</FileCompressionType>
+            <FileName>DEVICEGUICONFIG</FileName>
+            <IncludeRadioPointLog>1</IncludeRadioPointLog>
+            <LocationOnServer>/opt/hdm/logs/device/logs/onecell/0005B9/0005B942/0005B942CD/0005B942CDC2/</LocationOnServer>
+            <TransferType>UPLOAD</TransferType>
+            <TransferWindowDuration>60</TransferWindowDuration>
+            <TransferWindowInterval>96400</TransferWindowInterval>
+            <TransferWindowStartTime>11:00</TransferWindowStartTime>
+          </FileDetails>
+          <Password>airvana12321</Password>
+          <ServerURL>ftp://[2001:1::151:11]:36</ServerURL>
+          <Username>airvana12</Username>
+        </X_0005B9_FileTransfersEnh>
+        <X_0005B9_PlatformManagementEnable>0</X_0005B9_PlatformManagementEnable>
+        <X_0005B9_RU index="1">
+          <Device>
+            <DeviceInfo>
+              <Alias>0005B951D73C_1</Alias>
+              <DeviceType>Spare</DeviceType>
+              <InstallationType>None</InstallationType>
+              <Location>
+                <Altitude>760</Altitude>
+                <Confidence>50</Confidence>
+                <DataObject>UNKNOWN</DataObject>
+                <DegreesOfLatitude>1204637</DegreesOfLatitude>
+                <DegreesOfLongitude>3619720</DegreesOfLongitude>
+                <DirectionOfAltitude>Height</DirectionOfAltitude>
+                <LatitudeSign>North</LatitudeSign>
+                <OrientationOfMajorAxis>89</OrientationOfMajorAxis>
+                <UncertaintyAltitude>64</UncertaintyAltitude>
+                <UncertaintySemiMajor>63</UncertaintySemiMajor>
+                <UncertaintySemiMinor>63</UncertaintySemiMinor>
+              </Location>
+            </DeviceInfo>
+            <PHY>
+              <AntennaInfo>
+                <AntennaType>Internal</AntennaType>
+              </AntennaInfo>
+            </PHY>
+            <RAN>
+              <RF>
+                <RfTxPower>127</RfTxPower>
+              </RF>
+            </RAN>
+            <SlotReservation>
+              <AntennaPortNumber>NONE</AntennaPortNumber>
+            </SlotReservation>
+          </Device>
+        </X_0005B9_RU>
+        <X_0005B9_RUSoftwareManagement>
+          <EnableNGRPUpgrade>0</EnableNGRPUpgrade>
+        </X_0005B9_RUSoftwareManagement>
+        <X_0005B9_RUWhiteList>0005B951D73C;</X_0005B9_RUWhiteList>
+      </FAP>
+      <FaultMgmt>
+        <SupportedAlarm index="1">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="10">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="100">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="101">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="102">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="103">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="104">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="105">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="106">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="107">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="108">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="109">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="11">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="110">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="111">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="112">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="113">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="114">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="115">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="116">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="117">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="118">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="119">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="12">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="120">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="121">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="122">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="123">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="124">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="125">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="126">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="127">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="128">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="129">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="13">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="130">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="131">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="132">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="133">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="134">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="135">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="136">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="137">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="138">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="139">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="14">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="140">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="141">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="142">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="143">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="144">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="145">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="146">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="147">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="148">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="149">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="15">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="150">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="151">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="152">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="153">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="154">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="155">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="156">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="157">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="158">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="159">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="16">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="160">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="161">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="162">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="163">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="164">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="165">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="166">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="167">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="168">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="169">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="17">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="170">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="171">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="172">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="18">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="19">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="2">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="20">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="21">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="22">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="23">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="24">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="25">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="26">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="27">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="28">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="29">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="3">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="30">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="31">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="32">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="33">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="34">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="35">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="36">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="37">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="38">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="39">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="4">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="40">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="41">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="42">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="43">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="44">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="45">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="46">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="47">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="48">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="49">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="5">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="50">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="51">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="52">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="53">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="54">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="55">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="56">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="57">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="58">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="59">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="6">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="60">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="61">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="62">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="63">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="64">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="65">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="66">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="67">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="68">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="69">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="7">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="70">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="71">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="72">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="73">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="74">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="75">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="76">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="77">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="78">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="79">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="8">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="80">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="81">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="82">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="83">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="84">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="85">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="86">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="87">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="88">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="89">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="9">
+          <ReportingMechanism>2</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="90">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="91">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="92">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="93">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="94">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="95">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="96">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="97">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="98">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+        <SupportedAlarm index="99">
+          <ReportingMechanism>0</ReportingMechanism>
+        </SupportedAlarm>
+      </FaultMgmt>
+      <IP>
+        <Interface index="1">
+          <IPv6Address index="1">
+            <IPAddress>2005:1::11:2</IPAddress>
+            <X_0005B9_DNS/>
+          </IPv6Address>
+          <IPv6Address index="2">
+            <IPAddress>2005:1::10:4</IPAddress>
+            <X_0005B9_DNS/>
+          </IPv6Address>
+          <IPv6Address index="3">
+            <IPAddress>2005:1::11:2</IPAddress>
+            <X_0005B9_DNS> 2001:0:0:1::202</X_0005B9_DNS>
+          </IPv6Address>
+          <IPv6Address index="4">
+            <IPAddress/>
+            <X_0005B9_DNS/>
+          </IPv6Address>
+          <IPv6Address index="5">
+            <IPAddress/>
+            <X_0005B9_DNS/>
+          </IPv6Address>
+          <Router/>
+        </Interface>
+        <Interface index="2">
+          <Router/>
+        </Interface>
+        <Interface index="3">
+          <Router/>
+        </Interface>
+        <Interface index="4">
+          <Router/>
+        </Interface>
+        <Interface index="5">
+          <Router/>
+        </Interface>
+        <Interface index="6">
+          <Router/>
+        </Interface>
+      </IP>
+      <IPsec>
+        <Enable>1</Enable>
+      </IPsec>
+      <ManagementServer>
+        <PeriodicInformInterval>86400</PeriodicInformInterval>
+      </ManagementServer>
+      <QoS>
+        <Classification index="1">
+          <DSCPMark>56</DSCPMark>
+          <Protocol>255</Protocol>
+        </Classification>
+        <Classification index="2">
+          <DSCPMark>26</DSCPMark>
+          <Protocol>254</Protocol>
+        </Classification>
+        <Classification index="3">
+          <DSCPMark>26</DSCPMark>
+          <Protocol>253</Protocol>
+        </Classification>
+        <Classification index="4">
+          <DSCPMark>32</DSCPMark>
+          <Protocol>252</Protocol>
+        </Classification>
+      </QoS>
+      <Services>
+        <FAPService index="1">
+          <CellConfig>
+            <LTE>
+              <EPC>
+                <PLMNList index="1">
+                  <Alias>fn-plmn</Alias>
+                  <CellReservedForOperatorUse>1</CellReservedForOperatorUse>
+                  <Enable>1</Enable>
+                  <IsPrimary>0</IsPrimary>
+                  <PLMNID>313100</PLMNID>
+                </PLMNList>
+                <PLMNList index="2">
+                  <Alias>att-plmn</Alias>
+                  <CellReservedForOperatorUse>1</CellReservedForOperatorUse>
+                  <Enable>1</Enable>
+                  <IsPrimary>1</IsPrimary>
+                  <PLMNID>310260</PLMNID>
+                </PLMNList>
+                <QoS index="1">
+                  <QCI>1</QCI>
+                </QoS>
+                <QoS index="10">
+                  <QCI>65</QCI>
+                </QoS>
+                <QoS index="11">
+                  <QCI>66</QCI>
+                </QoS>
+                <QoS index="12">
+                  <QCI>69</QCI>
+                </QoS>
+                <QoS index="13">
+                  <QCI>70</QCI>
+                </QoS>
+                <QoS index="2">
+                  <QCI>2</QCI>
+                </QoS>
+                <QoS index="3">
+                  <QCI>3</QCI>
+                </QoS>
+                <QoS index="4">
+                  <QCI>4</QCI>
+                </QoS>
+                <QoS index="5">
+                  <QCI>5</QCI>
+                </QoS>
+                <QoS index="6">
+                  <QCI>6</QCI>
+                </QoS>
+                <QoS index="7">
+                  <QCI>7</QCI>
+                </QoS>
+                <QoS index="8">
+                  <QCI>8</QCI>
+                </QoS>
+                <QoS index="9">
+                  <QCI>9</QCI>
+                </QoS>
+                <TAC>1</TAC>
+              </EPC>
+              <RAN>
+                <Common>
+                  <CellIdentity>256</CellIdentity>
+                  <X_0005B9_CellMode>eNB</X_0005B9_CellMode>
+                </Common>
+                <PHY>
+                  <PRACH>
+                    <RootSequenceIndex>782</RootSequenceIndex>
+                  </PRACH>
+                </PHY>
+                <RF>
+                  <DLBandwidth>100</DLBandwidth>
+                  <EARFCNDL>300</EARFCNDL>
+                  <EARFCNUL>18300</EARFCNUL>
+                  <PhyCellID>190</PhyCellID>
+                  <ULBandwidth>100</ULBandwidth>
+                </RF>
+              </RAN>
+            </LTE>
+          </CellConfig>
+          <FAPControl>
+            <LTE>
+              <AdminState>1</AdminState>
+              <Gateway>
+                <S1SigLinkServerList>2001:1::61:14</S1SigLinkServerList>
+              </Gateway>
+              <X_0005B9_SelfConfig>
+                <ClearDiscoveredNeighbors>0</ClearDiscoveredNeighbors>
+              </X_0005B9_SelfConfig>
+            </LTE>
+          </FAPControl>
+          <X_0005B9_LTE>
+            <TACList>1</TACList>
+          </X_0005B9_LTE>
+        </FAPService>
+        <FAPService index="2">
+          <CellConfig>
+            <LTE>
+              <EPC>
+                <PLMNList index="1">
+                  <Alias>fn-plmn</Alias>
+                  <CellReservedForOperatorUse>1</CellReservedForOperatorUse>
+                  <Enable>1</Enable>
+                  <IsPrimary>0</IsPrimary>
+                  <PLMNID>313100</PLMNID>
+                </PLMNList>
+                <PLMNList index="2">
+                  <Alias>att-plmn</Alias>
+                  <CellReservedForOperatorUse>1</CellReservedForOperatorUse>
+                  <Enable>1</Enable>
+                  <IsPrimary>1</IsPrimary>
+                  <PLMNID>310260</PLMNID>
+                </PLMNList>
+                <QoS index="1">
+                  <QCI>1</QCI>
+                </QoS>
+                <QoS index="10">
+                  <QCI>65</QCI>
+                </QoS>
+                <QoS index="11">
+                  <QCI>66</QCI>
+                </QoS>
+                <QoS index="12">
+                  <QCI>69</QCI>
+                </QoS>
+                <QoS index="13">
+                  <QCI>70</QCI>
+                </QoS>
+                <QoS index="2">
+                  <QCI>2</QCI>
+                </QoS>
+                <QoS index="3">
+                  <QCI>3</QCI>
+                </QoS>
+                <QoS index="4">
+                  <QCI>4</QCI>
+                </QoS>
+                <QoS index="5">
+                  <QCI>5</QCI>
+                </QoS>
+                <QoS index="6">
+                  <QCI>6</QCI>
+                </QoS>
+                <QoS index="7">
+                  <QCI>7</QCI>
+                </QoS>
+                <QoS index="8">
+                  <QCI>8</QCI>
+                </QoS>
+                <QoS index="9">
+                  <QCI>9</QCI>
+                </QoS>
+                <TAC>1</TAC>
+              </EPC>
+              <RAN>
+                <Common>
+                  <CellIdentity>257</CellIdentity>
+                  <X_0005B9_CellMode>eNB</X_0005B9_CellMode>
+                </Common>
+                <PHY>
+                  <PRACH>
+                    <RootSequenceIndex>782</RootSequenceIndex>
+                  </PRACH>
+                </PHY>
+                <RF>
+                  <DLBandwidth>100</DLBandwidth>
+                  <EARFCNDL>66886</EARFCNDL>
+                  <EARFCNUL>132422</EARFCNUL>
+                  <PhyCellID>197</PhyCellID>
+                  <ULBandwidth>100</ULBandwidth>
+                </RF>
+              </RAN>
+            </LTE>
+          </CellConfig>
+          <FAPControl>
+            <LTE>
+              <AdminState>1</AdminState>
+              <X_0005B9_SelfConfig>
+                <ClearDiscoveredNeighbors>0</ClearDiscoveredNeighbors>
+              </X_0005B9_SelfConfig>
+            </LTE>
+          </FAPControl>
+          <X_0005B9_LTE>
+            <TACList>1,2</TACList>
+          </X_0005B9_LTE>
+        </FAPService>
+        <X_0005B9_numSectorsPerBC>2</X_0005B9_numSectorsPerBC>
+      </Services>
+      <Time>
+        <LocalTimeZone>IST-5:30</LocalTimeZone>
+      </Time>
+      <X_0005B9_SoftwareManagement>
+        <ApplyWindowStart>0000-00-00T00:00:00Z</ApplyWindowStart>
+        <UpgradeState>None</UpgradeState>
+      </X_0005B9_SoftwareManagement>
+    </Device>
+  </configData>
+  <fileFooter dateTime="2020-07-31T16:57:27+05:30"/>
+</configDataFile>

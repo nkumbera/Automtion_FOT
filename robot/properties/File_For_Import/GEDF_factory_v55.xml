@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GenericFileEDF xmlns="http://integration.commscope.com/v1/GEDF.xsd">
+
+   <OrderNumber>000001</OrderNumber>
+
+   <DateOfFile>20180414</DateOfFile>
+
+   <DeviceCount>1</DeviceCount>
+
+   <PurchaserName>ATT</PurchaserName>
+
+   <ManufacturerName>CommScope</ManufacturerName>
+
+   <DeviceType>CU</DeviceType>
+
+   <edfData>
+
+      <edfHeader>
+
+         <RefurbishedState>RW</RefurbishedState>
+
+         <ProductName>OneCellBC</ProductName> <!-- This name would be same as SKU name -->
+
+        </edfHeader>
+
+      <deviceList>
+
+            <device>
+
+                <MacId>0005B9100A2</MacId>
+
+                <SerialNumber>0005B9-PC-0005B9100A2</SerialNumber>
+
+                <SWversion>6.0.00.100</SWversion>
+
+                <UniqueSharedSecret>airvana</UniqueSharedSecret>
+
+            </device>	   		
+			
+		</deviceList>
+
+   </edfData>
+
+</GenericFileEDF>
+

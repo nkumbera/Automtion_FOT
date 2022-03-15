@@ -1,0 +1,40 @@
+
+Site Location	gNBId	Device Type	DeviceID	Attribute	Deviation: Yes, No, ANC, ANA	GSValue	DMS Value
+N/A	N/A	N/A	N/A	N/A	Device SwVersion:CUCP:6.0.00.001,CUUP:6.0.00.001,DU:6.0.00.001	N/A	Deviation check Date-Time :2022-02-20-19-31
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/_3gpp-nr-nrm-ep:EP_X2C[1]	Yes	{remoteAddress:"10.101.100.11"}	[{idx:"2",remoteAddress:"10.211.55.16"},{idx:"1",remoteAddress:"10.211.55.15"}]
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/_3gpp-nr-nrm-ep:EP_X2C[2]	Yes	{remoteAddress:"10.101.100.12"}	[{idx:"2",remoteAddress:"10.211.55.16"},{idx:"1",remoteAddress:"10.211.55.15"}]
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/_3gpp-nr-nrm-nrcellcu:NRCellCU[1]/attributes/cellLocalId	Yes	"1"	"401"
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/_3gpp-nr-nrm-nrcellcu:NRCellCU[1]/attributes/pLMNInfoList[200 20]	Yes	{mcc:"200",mnc:"20"}	[{mcc:"311",mnc:"280"}]
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/attributes/gNBId	Yes	"1016"	"2051"
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/CAServer	ANC	"CAServer:10.101.100.10"	
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/Enabled	ANC	"TRUE"	
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/Port	ANC	"1234"	
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/SACertificateIdentifer	ANC	"1111"	
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/URI	ANC	"https://commscope-att-cmpv2.com"	
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-gateway/IpSec-CA-Gateway/Gateway[index]/SecGW	Yes	"10.101.100.15"	"10.197.91.12"
+Automation_Venue	2051	CUCP	ipsec2-2051cucp1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-gateway/IpSec-S1U-Gateway/Gateway[index]/SecGW	ANC	"10.101.100.14"	
+Automation_Venue	2051	CUUP	ipsec2-2051cuup1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcuupfunction:GNBCUUPFunction[1]/_3gpp-nr-nrm-ep:EP_E1[2]	Yes	{remoteAddress:"20.101.100.10"}	[{idx:"1",remoteAddress:"2001:4000:aa:74::1"}]
+Automation_Venue	2051	CUUP	ipsec2-2051cuup1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcuupfunction:GNBCUUPFunction[1]/attributes/gNBId	Yes	"1016"	"2051"
+Automation_Venue	2051	CUUP	ipsec2-2051cuup1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/CAServer	ANC	"CAServer:10.101.100.10"	
+Automation_Venue	2051	CUUP	ipsec2-2051cuup1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/Enabled	ANC	"TRUE"	
+Automation_Venue	2051	CUUP	ipsec2-2051cuup1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/Port	ANC	"1234"	
+Automation_Venue	2051	CUUP	ipsec2-2051cuup1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/SACertificateIdentifer	ANC	"1111"	
+Automation_Venue	2051	CUUP	ipsec2-2051cuup1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/URI	ANC	"https://commscope-att-cmpv2.com"	
+Automation_Venue	2051	CUUP	ipsec2-2051cuup1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-gateway/IpSec-CA-Gateway/Gateway[index]/SecGW	Yes	"10.101.100.15"	"10.197.91.21"
+Automation_Venue	2051	CUUP	ipsec2-2051cuup1	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-gateway/IpSec-S1U-Gateway/Gateway[index]/SecGW	Yes	"10.101.100.14"	"10.197.61.20"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-ep:EP_F1C[1]/attributes/remoteAddress	ANC	"RemoteAddress:10.101.100.11"	
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/administrativeState	Yes	"TRUE"	"UNLOCKED"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/arfcnDL	Yes	"12,13,14"	"374000"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/arfcnUL	Yes	"12,13,14"	"106"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/bSChannelBwDL	Yes	"100"	"106"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/bSChannelBwUL	Yes	"100"	"2"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/cellLocalId	Yes	"11..20"	"105"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/commscope_3gpp-nr-nrm-nrcelldu:PrachConfig/X0005B9_prachRootSequenceIndex	Yes	"12"	"202"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_NRFreqBandDL	Yes	"50"	"104"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/nRPCI	Yes	"123"	"1007"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/pLMNInfoList[100 50]	Yes	{mcc:"100",mnc:"50",commscope_3gpp-nr-nrm-nrcelldu:X0005B9_enable:"true",commscope_3gpp-nr-nrm-nrcelldu:X0005B9_isPrimary:"true"}	[{mcc:"311",mnc:"280",commscope_3gpp-nr-nrm-nrcelldu:X0005B9_enable:"true",commscope_3gpp-nr-nrm-nrcelldu:X0005B9_isPrimary:"true"}]
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/attributes/gNBId	Yes	"1016"	"2051"
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[1]/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_whitelist[X0005B9_cellId]/X0005B9_ruserialNumber	ANC	"0005B95264A1"	
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[2]/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_whitelist[X0005B9_cellId]/X0005B9_ruserialNumber	ANC	"0005B95264A2"	
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[3]/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_whitelist[X0005B9_cellId]/X0005B9_ruserialNumber	ANC	"0005B95264A3"	
+Automation_Venue	2051	DU	ipsec2-2051du1	_3gpp-common-managed-element:ManagedElement[4]/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_whitelist[X0005B9_cellId]/X0005B9_ruserialNumber	ANC	"0005B95264A4"	

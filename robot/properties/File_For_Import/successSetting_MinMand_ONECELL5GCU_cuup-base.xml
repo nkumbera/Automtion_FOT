@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" srvpackid="ONECELL5GCU" >
+    <ServiceAreaDefinition useprofile="cuup-base">
+		<ServiceAreas>
+			<ServiceArea type="OperatorSpecific" value="5gServiceArea"> 
+                <GNBId value="123" />
+                <vesUserName value="dmsadmin289" />
+				<vesPassWord value="dmsadmin@123456" />
+				<vesURL value="https://10.212.2.11:7001/eventLister/v24" /> 
+				<EPE1 id="1"> 
+					<RemoteAddress value="10.211.51.51"/>
+				</EPE1>
+				<EPE1 id="2">
+					<RemoteAddress value="10.211.51.16"/>
+				</EPE1>
+            </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>
+</ServiceAreaSettings>

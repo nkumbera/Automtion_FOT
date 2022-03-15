@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings srvpackid="ONECELL5GCU" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ServiceAreaDefinition useprofile="cucp-base">
+        <ServiceAreas>            
+            <ServiceArea type="OperatorSpecific" value="mjcucp">
+                <GNBId value="11011"/>
+                <GNBIdLength value="24"/>
+                <PLMNId>
+                    <MCC value="504"/>
+                    <MNC value="94"/>
+                </PLMNId>
+                <NRCellCU id="4">
+                    <CellLocalId value="4"/>
+                    <PLMNInfoList>
+                        <MCC value="506"/>
+                        <MNC value="96"/>
+                    </PLMNInfoList>
+                </NRCellCU>
+                <EPX2C id="1">
+                    <RemoteAddress value="10.211.55.15"/>
+                </EPX2C>
+                <EPX2C id="2">
+                    <RemoteAddress value="10.211.55.16"/>
+                </EPX2C>
+                <EPX2C id="3">
+                    <RemoteAddress value="10.211.55.17"/>
+                </EPX2C>
+                <EPX2C id="4">
+                    <RemoteAddress value="10.211.55.18"/>
+                </EPX2C>
+            </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>
+</ServiceAreaSettings>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" srvpackid="ONECELL5GCU" >
+	<ServiceAreaDefinition useprofile="cuup-base">
+		<ServiceAreas>
+			<ServiceArea type="OperatorSpecific" value="drop2-3031cuup1">
+				<GNBId value="3031"></GNBId>
+				<EPE1 id="1">
+					<RemoteAddress value="2001:4000:aa:33::1"></RemoteAddress>
+				</EPE1>
+				<X2UIpSecGateway index="1">
+					<SecGW value="155.165.75.236"></SecGW>
+				</X2UIpSecGateway>
+				<CAIpSecGateway index="1">
+					<SecGW value="155.165.18.196"></SecGW>
+				</CAIpSecGateway>
+			</ServiceArea>
+		</ServiceAreas>
+	</ServiceAreaDefinition>
+</ServiceAreaSettings>

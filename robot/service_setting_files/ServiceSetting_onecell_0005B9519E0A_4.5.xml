@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings srvpackid="onecell" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ServiceAreaDefinition useprofile="4.5">
+        <ServiceAreas>
+            <ServiceArea type="OperatorSpecific" value="0005B9519E0A">
+                <S1SigLinkServerList value="10.207.191.115,10.207.191.116"/>
+                <S1SigLinkPort value="36412"/>
+                <LocalTimeZone value="GMT+0"/>
+                <X_0005B9_numSectorsPerBC value="1"/>
+                <X_0005B9_downlinkCaEnable value="FALSE"/>
+                <X_0005B9_X2Enable value="FALSE"/>
+                <TACSelfConfigEnable value="FALSE"/>
+                <eNodeBName value="DMSSVT_0005B9519E0A"/>
+                <ENBCellMode>
+                    <ENodeBIdRange value="1..20"/>
+                </ENBCellMode>
+                <VoIPEnable value="true"/>
+				<SPIDEnable value="FALSE" />
+				
+                <Sector id="1">
+                    <PhyCellID value="120"/>
+                    <X_0005B9_CellName value="DMSSVT_0005B9519E0A"/>
+                    <EARFCNDL value="2855"/>
+                    <EARFCNUL value="20855"/>
+                    <ULBandwidth value="100"/>
+                    <DLBandwidth value="100"/>
+                    <RootSequenceIndex value="734,0"/>
+                    <TAC value="1"/>
+                    <TACList value="1"/>
+                    <UARFCNDLList value="575,4395"/>
+					<X_0005B9_Enable4X4MIMO value="TRUE" />
+				    <X_0005B9_CatM1Enable value="TRUE" />
+                    <PLMN index="1">
+                        <PLMNID value="311480"/>
+                        <Enable value="true"/>
+                        <Alias value="cpe-121"/>
+                        <IsPrimary value="true"/>
+                        <CellReservedForOperatorUse value="false"/>
+                    </PLMN>
+                    
+                    <X_0005B9_EnableDlReuse value="TRUE"/>
+                    <X_0005B9_EnableUlReuse value="TRUE"/>
+                    <X_0005B9_ReuseFactorDl value="2"/>
+                    <X_0005B9_ReuseFactorUl value="2"/>
+                    <X_0005B9_EnableDL256QAM value="TRUE"/>
+                    <X_0005B9_EnableUL64QAM value="TRUE"/>
+                    <BarringSkipForSMS value="true"/>
+                    <BarringSkipForMMTELVoice value="true"/>
+                    <BarringSkipForMMTELVideo value="true"/>
+                    <AutoACBEnable value="true"/>
+                    <QoS index="1">
+                        <QCI value="1"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="2">
+                        <QCI value="2"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="3">
+                        <QCI value="3"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="4">
+                        <QCI value="4"/>
+                        <X_0005B9_DSCP value="36"/>
+                    </QoS>
+                    <QoS index="5">
+                        <QCI value="5"/>
+                        <X_0005B9_DSCP value="32"/>
+                    </QoS>
+                    <QoS index="6">
+                        <QCI value="6"/>
+                        <X_0005B9_DSCP value="18"/>
+                    </QoS>
+                    <QoS index="7">
+                        <QCI value="7"/>
+                        <X_0005B9_DSCP value="20"/>
+                    </QoS>
+                    <QoS index="8">
+                        <QCI value="8"/>
+                        <X_0005B9_DSCP value="22"/>
+                    </QoS>
+                    <QoS index="9">
+                        <QCI value="9"/>
+                        <X_0005B9_DSCP value="22"/>
+                    </QoS>
+                    <QoS index="10">
+                        <QCI value="10"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="11">
+                        <QCI value="11"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="12">
+                        <QCI value="12"/>
+                        <X_0005B9_DSCP value="32"/>
+                    </QoS>
+                    </Sector>
+                <RPTransferLogsToController value="DEBUG,FAILUREEVENT,PERFORMANCE"/>
+                <EnableNGRPUpgrade value="FALSE"/>
+                <EnablePlatformManagement value="TRUE"/>
+                <FileTransfer index="1">
+                    <FileTransferDetails>
+                        <EnhFileTransferServerURL value="sftp://10.211.240.89:21"/>
+                        <EnhFileTransferUsername value="dmsadmin"/>
+                        <EnhFileTransferPassword value="airvana"/>
+                    </FileTransferDetails>
+                    <FileDetails index="1">
+                        <enhFileEnable value="TRUE"/>
+                        <enhFileLogFileName value="ALARM"/>
+                        <enhFileIncludeRadioPointLog value="TRUE"/>
+                        <enhFileTransferWindowStartTime value="01:00"/>
+                        <enhFileTransferWindowDuration value="60"/>
+                        <enhFileTransferWindowInterval value="3600"/>
+                        <enhFileCompressionEnable value="TRUE"/>
+                        <enhFileCompressionType value="tgz"/>
+                        <enhFileTransferType value="UPLOAD"/>
+                    </FileDetails>
+                    <FileDetails index="2">
+                        <enhFileEnable value="TRUE"/>
+                        <enhFileLogFileName value="DEBUG"/>
+                        <enhFileIncludeRadioPointLog value="TRUE"/>
+                        <enhFileTransferWindowStartTime value="01:00"/>
+                        <enhFileTransferWindowDuration value="60"/>
+                        <enhFileTransferWindowInterval value="3600"/>
+                        <enhFileCompressionEnable value="TRUE"/>
+                        <enhFileCompressionType value="tgz"/>
+                        <enhFileTransferType value="UPLOAD"/>
+                    </FileDetails>
+                    <FileDetails index="3">
+                        <enhFileEnable value="TRUE"/>
+                        <enhFileLogFileName value="PERFORMANCE_PERPLMNOM"/>
+                        <enhFileIncludeRadioPointLog value="TRUE"/>
+                        <enhFileTransferWindowStartTime value="01:00"/>
+                        <enhFileTransferWindowDuration value="60"/>
+                        <enhFileTransferWindowInterval value="3600"/>
+                        <enhFileCompressionEnable value="TRUE"/>
+                        <enhFileCompressionType value="tgz"/>
+                        <enhFileTransferType value="UPLOAD"/>
+                    </FileDetails>
+                    <FileDetails index="4">
+                        <enhFileEnable value="TRUE"/>
+                        <enhFileLogFileName value="FAILUREEVENT"/>
+                        <enhFileIncludeRadioPointLog value="TRUE"/>
+                        <enhFileTransferWindowStartTime value="01:00"/>
+                        <enhFileTransferWindowDuration value="60"/>
+                        <enhFileTransferWindowInterval value="3600"/>
+                        <enhFileCompressionEnable value="TRUE"/>
+                        <enhFileCompressionType value="tgz"/>
+                        <enhFileTransferType value="UPLOAD"/>
+                    </FileDetails>
+                    <FileDetails index="5">
+                        <enhFileEnable value="TRUE"/>
+                        <enhFileLogFileName value="ACTIVITY"/>
+                        <enhFileIncludeRadioPointLog value="TRUE"/>
+                        <enhFileTransferWindowStartTime value="01:00"/>
+                        <enhFileTransferWindowDuration value="60"/>
+                        <enhFileTransferWindowInterval value="3600"/>
+                        <enhFileCompressionEnable value="TRUE"/>
+                        <enhFileCompressionType value="tgz"/>
+                        <enhFileTransferType value="UPLOAD"/>
+                    </FileDetails>
+                </FileTransfer>
+                <!--SlotRes index="1">
+            <PartNumber value="abc12345"/>
+            <AntennaPortNumber value="1-2;3-4"/>
+        </SlotRes-->
+            </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>
+</ServiceAreaSettings>

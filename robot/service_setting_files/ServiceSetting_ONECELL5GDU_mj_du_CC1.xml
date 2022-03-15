@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings srvpackid="ONECELL5GDU" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ServiceAreaDefinition useprofile="base">
+        <ServiceAreas>            
+             <ServiceArea type="OperatorSpecific" value="mjdu">
+                <GNBId value="11013"/>
+                <EPF1C id="1">
+                    <RemoteAddress value="1.1.3.1"/>
+                </EPF1C>
+                <ConfigurableCells value="cellindex_1"/>
+				<!--ConfigurableCells value="cellindex_1,cellindex_2,cellindex_3,cellindex_4"/-->
+                <NRCellDU id="cellindex_1">
+                    <PLMNInfoList>
+                        <Enable value="true"/>
+                        <MCC value="300"/>
+                        <MNC value="300"/>
+                        <isPrimary value="true"/>
+                    </PLMNInfoList>
+                    <NRPCI value="130"/>
+                    <ARFCNDL value="48"/>
+                    <ARFCNUL value="96"/>
+                    <BSChannelBwDL value="223"/>
+                    <BSChannelBwUL value="443"/>
+                    <NRFreqBandDL value="663"/>
+                    <RootSequenceIndex value="111"/>
+                    <CellLocalId value="13440"/>
+                </NRCellDU>
+                <NRCellDU id="cellindex_2">
+                    <PLMNInfoList>
+                        <Enable value="true"/>
+                        <MCC value="350"/>
+                        <MNC value="450"/>
+                        <isPrimary value="true"/>
+                    </PLMNInfoList>
+                    <NRPCI value="128"/>
+                    <ARFCNDL value="44"/>
+                    <ARFCNUL value="86"/>
+                    <BSChannelBwDL value="223"/>
+                    <BSChannelBwUL value="445"/>
+                    <NRFreqBandDL value="667"/>
+                    <RootSequenceIndex value="111"/>
+                    <CellLocalId value="14450"/>
+                </NRCellDU>
+                <NRCellDU id="cellindex_3">
+                    <PLMNInfoList>
+                        <Enable value="true"/>
+                        <MCC value="400"/>
+                        <MNC value="200"/>
+                        <isPrimary value="true"/>
+                    </PLMNInfoList>
+                    <NRPCI value="129"/>
+                    <ARFCNDL value="46"/>
+                    <ARFCNUL value="98"/>
+                    <BSChannelBwDL value="556"/>
+                    <BSChannelBwUL value="445"/>
+                    <NRFreqBandDL value="665"/>
+                    <RootSequenceIndex value="111"/>
+                    <CellLocalId value="14440"/>
+                </NRCellDU>
+                <NRCellDU id="cellindex_4">
+                    <PLMNInfoList>
+                        <Enable value="true"/>
+                        <MCC value="500"/>
+                        <MNC value="400"/>
+                        <isPrimary value="true"/>
+                    </PLMNInfoList>
+                    <NRPCI value="122"/>
+                    <ARFCNDL value="42"/>
+                    <ARFCNUL value="92"/>
+                    <BSChannelBwDL value="333"/>
+                    <BSChannelBwUL value="445"/>
+                    <NRFreqBandDL value="667"/>
+                    <RootSequenceIndex value="111"/>
+                    <CellLocalId value="14464"/>
+                </NRCellDU>
+            </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>
+</ServiceAreaSettings>

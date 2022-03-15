@@ -1,0 +1,38 @@
+Device Type	Attribute	GSValue
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/attributes/gNBId	1016
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/_3gpp-nr-nrm-nrcellcu:NRCellCU[1]/attributes/cellLocalId	1
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/_3gpp-nr-nrm-nrcellcu:NRCellCU[1]/attributes/pLMNInfoList[200 20]	{MCC:200, MNC:20}
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/_3gpp-nr-nrm-ep:EP_X2C[1]	{RemoteAddress:10.101.100.11}
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcucpfunction:GNBCUCPFunction[1]/_3gpp-nr-nrm-ep:EP_X2C[2]	{RemoteAddress:10.101.100.12}
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/Enabled	TRUE
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/CAServer	{CAServer:10.101.100.10}
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/Port	1234
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/URI	https://commscope-att-cmpv2.com
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-gateway/IpSec-S1U-Gateway/Gateway[1]/SecGW	10.101.100.14
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-gateway/IpSec-CA-Gateway/Gateway[1]/SecGW	10.101.100.15
+CUCP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/SACertificateIdentifer	1111
+CUUP	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcuupfunction:GNBCUUPFunction[1]/attributes/gNBId	1016
+CUUP	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbcuupfunction:GNBCUUPFunction[1]/_3gpp-nr-nrm-ep:EP_E1[2]	{RemoteAddress:20.101.100.10}
+CUUP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-gateway/IpSec-S1U-Gateway/Gateway[1]/SecGW	10.101.100.14
+CUUP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-gateway/IpSec-CA-Gateway/Gateway[1]/SecGW	10.101.100.15
+CUUP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/Enabled	TRUE
+CUUP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/CAServer	{CAServer:10.101.100.10}
+CUUP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/Port	1234
+CUUP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/URI	https://commscope-att-cmpv2.com
+CUUP	_3gpp-common-managed-element:ManagedElement[1]/commscope-ipsec-cmpv2:commscope-cmpv2/SACertificateIdentifer	1111
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/attributes/gNBId	1016
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/cellLocalId	11..20
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-ep:EP_F1C[1]/attributes/remoteAddress	{RemoteAddress:10.101.100.11}
+DU	_3gpp-common-managed-element:ManagedElement[1]/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_whitelist[1]/X0005B9_ruserialNumber	0005B95264A1
+DU	_3gpp-common-managed-element:ManagedElement[1]/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_whitelist[2]/X0005B9_ruserialNumber	0005B95264A2
+DU	_3gpp-common-managed-element:ManagedElement[1]/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_whitelist[3]/X0005B9_ruserialNumber	0005B95264A3
+DU	_3gpp-common-managed-element:ManagedElement[1]/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_whitelist[4]/X0005B9_ruserialNumber	0005B95264A4
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/administrativeState	TRUE
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/nRPCI	123
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/arfcnUL	12,13,14
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/arfcnDL	12,13,14
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/bSChannelBwDL	100
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/bSChannelBwUL	100
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/commscope_3gpp-nr-nrm-nrcelldu:X0005B9_NRFreqBandDL	50
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/commscope_3gpp-nr-nrm-nrcelldu:PrachConfig/X0005B9_prachRootSequenceIndex	12
+DU	_3gpp-common-managed-element:ManagedElement[1]/_3gpp-nr-nrm-gnbdufunction:GNBDUFunction[1]/_3gpp-nr-nrm-nrcelldu:NRCellDU[1]/attributes/pLMNInfoList[100 50]	{MCC:100, MNC:50,commscope_3gpp-nr-nrm-nrcelldu:X0005B9_enable:true,commscope_3gpp-nr-nrm-nrcelldu:X0005B9_isPrimary:true}

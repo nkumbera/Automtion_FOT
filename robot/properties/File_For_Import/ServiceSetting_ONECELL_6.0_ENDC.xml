@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings srvpackid="onecell" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ServiceAreaDefinition useprofile="6.0">
+        <ServiceAreas>
+            <ServiceArea type="OperatorSpecific" value="Automation_profile">
+                <EndcEnable value="TRUE"/>
+                <X_0005B9_MaxNumENDCX2 value="1"/>
+				<Sector id="1">
+				    <QoS index="1">
+                        <QCI value="1"/>
+                        <X_0005B9_DSCP value="20"/>
+                        <X_0005B9_SPSPeriodUL value="40"/>
+                        <X_0005B9_SPSPeriodDL value="40"/>
+                        <X_0005B9_Enable value="TRUE"/>
+                        <X_0005B9_SnSplitBearer value="TRUE"/>
+                    </QoS>
+                    <QoS index="2">
+                        <QCI value="2"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="3">
+                        <QCI value="3"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="4">
+                        <QCI value="4"/>
+                        <X_0005B9_DSCP value="36"/>
+                    </QoS>
+                    <QoS index="5">
+                        <QCI value="5"/>
+                        <X_0005B9_DSCP value="32"/>
+                    </QoS>
+                    <QoS index="6">
+                        <QCI value="6"/>
+                        <X_0005B9_DSCP value="18"/>
+                    </QoS>
+                    <QoS index="7">
+                        <QCI value="7"/>
+                        <X_0005B9_DSCP value="20"/>
+                    </QoS>
+                    <QoS index="8">
+                        <QCI value="8"/>
+                        <X_0005B9_DSCP value="22"/>
+                    </QoS>
+                    <QoS index="9">
+                        <QCI value="9"/>
+                        <X_0005B9_DSCP value="22"/>
+                    </QoS>
+                    <QoS index="10">
+                        <QCI value="10"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="11">
+                        <QCI value="11"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="12">
+                        <QCI value="12"/>
+                        <X_0005B9_DSCP value="32"/>
+                    </QoS>
+                    <NRNeighborList index="1">
+                        <NREnable value="TRUE"/>
+                        <NRAlias value="abcde"/>
+                        <NRMustInclude value="TRUE"/>
+                        <TNLAddress value="2.2.2.2"/>
+                        <NRPLMNID value="212148"/>
+                        <NRPLMNList value="123456,12345"/>
+                        <NCI value="99999"/>
+                        <NRCarrierARFCN value="999"/>
+                        <NR_PCI value="99"/>
+                        <NRBlacklisted value="FALSE"/>
+                        <X_0005B9_ENDCX2LinkEnable value="FALSE"/>
+                    </NRNeighborList>
+				</Sector>
+				<Sector id="2">
+				                    <QoS index="1">
+                        <QCI value="1"/>
+                        <X_0005B9_DSCP value="20"/>
+                        <X_0005B9_SPSPeriodUL value="40"/>
+                        <X_0005B9_SPSPeriodDL value="40"/>
+                        <X_0005B9_Enable value="TRUE"/>
+                        <X_0005B9_SnSplitBearer value="TRUE"/>
+                    </QoS>
+                    <QoS index="2">
+                        <QCI value="2"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="3">
+                        <QCI value="3"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="4">
+                        <QCI value="4"/>
+                        <X_0005B9_DSCP value="36"/>
+                    </QoS>
+                    <QoS index="5">
+                        <QCI value="5"/>
+                        <X_0005B9_DSCP value="32"/>
+                    </QoS>
+                    <QoS index="6">
+                        <QCI value="6"/>
+                        <X_0005B9_DSCP value="18"/>
+                    </QoS>
+                    <QoS index="7">
+                        <QCI value="7"/>
+                        <X_0005B9_DSCP value="20"/>
+                    </QoS>
+                    <QoS index="8">
+                        <QCI value="8"/>
+                        <X_0005B9_DSCP value="22"/>
+                    </QoS>
+                    <QoS index="9">
+                        <QCI value="9"/>
+                        <X_0005B9_DSCP value="22"/>
+                    </QoS>
+                    <QoS index="10">
+                        <QCI value="10"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="11">
+                        <QCI value="11"/>
+                        <X_0005B9_DSCP value="46"/>
+                    </QoS>
+                    <QoS index="12">
+                        <QCI value="12"/>
+                        <X_0005B9_DSCP value="32"/>
+                    </QoS>
+                    <NRNeighborList index="1">
+                        <NREnable value="TRUE"/>
+                        <NRAlias value="abcde"/>
+                        <NRMustInclude value="TRUE"/>
+                        <TNLAddress value="2.2.2.2"/>
+                        <NRPLMNID value="212148"/>
+                        <NRPLMNList value="123456,12345"/>
+                        <NCI value="99999"/>
+                        <NRCarrierARFCN value="999"/>
+                        <NR_PCI value="99"/>
+                        <NRBlacklisted value="FALSE"/>
+                        <X_0005B9_ENDCX2LinkEnable value="FALSE"/>
+                    </NRNeighborList>
+				</Sector>
+		    </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>				
+</ServiceAreaSettings>

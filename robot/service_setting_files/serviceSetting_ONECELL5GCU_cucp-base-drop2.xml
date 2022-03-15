@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" srvpackid="ONECELL5GCU" >
+	<ServiceAreaDefinition useprofile="cucp-base">
+		<ServiceAreas>
+<ServiceArea type="OperatorSpecific" value="drop2-3031cucp1">
+	<GNBId value="3031"></GNBId>
+	<PLMNId>
+		<MCC value="311"></MCC>
+		<MNC value="180"></MNC>
+	</PLMNId>
+	<NRCellCU id="1">
+		<CellLocalId value="1"></CellLocalId>
+		<PLMNInfoList>
+			<MCC value="311"></MCC>
+			<MNC value="180"></MNC>
+		</PLMNInfoList>
+	</NRCellCU>
+	<X2CIpSecGateway index="1">
+		<SecGW value="155.165.75.236"></SecGW>
+	</X2CIpSecGateway>
+	<CAIpSecGateway index="1">
+		<SecGW value="155.165.18.196"></SecGW>
+	</CAIpSecGateway>
+</ServiceArea>
+		</ServiceAreas>
+	</ServiceAreaDefinition>
+</ServiceAreaSettings>

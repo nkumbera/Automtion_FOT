@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityMappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+    <EntityMapping relationType="one-to-many">
+        <PrimaryEntity id="alarmtest-8001cucp1" oui="0005B9" productClass="CS_ONECELL_CU-CP"/>
+        <SecondaryEntity id="255" oui="0005B9" productClass="LTE_Enterprise_C-RANSC_Cntrl"/>
+        <SecondaryEntity id="alarmtest-8001cuup1" oui="0005B9" productClass="CS_ONECELL_CU-UP"/>
+        <SecondaryEntity id="alarmtest-8001du1" oui="0005B9" productClass="CS_ONECELL_DU"/>
+    </EntityMapping>
+</EntityMappings>

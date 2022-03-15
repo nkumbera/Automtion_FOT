@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings srvpackid="ONECELL5GCU" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ServiceAreaDefinition useprofile="cucp-base">
+        <ServiceAreas>
+            <ServiceArea type="OperatorSpecific" value="5gServiceArea">
+                <GNBId value="4589"/>
+                <GNBName value="dev-123"/>
+                <GNBIdLength value="26"/>
+                <HeartBeatPeriod value="5"/>
+                <vesURL value="https://10.21.21.1:443/eventListener/v1"/>
+                <vesUserName value="dmsadmin"/>
+                <vesPassWord value="password123"/>
+                <PLMNId>
+                    <MCC value="505"/>
+                    <MNC value="93"/>
+                </PLMNId>
+                <NRCellCU id="1">
+                    <CellLocalId value="12"/>
+                    <PLMNInfoList>
+                        <MCC value="507"/>
+                        <MNC value="94"/>
+                    </PLMNInfoList>
+                </NRCellCU>
+				<EPX2C id="1">
+                    <RemoteAddress value="10.22.33.22"/>
+                </EPX2C>
+                <CAIpSecGateway index="1">
+                    <SecGW value="10.211.55.15"/>
+                </CAIpSecGateway>
+                <CAIpSecGateway index="2">
+                    <SecGW value="10.211.55.17"/>
+                </CAIpSecGateway>
+                <X2CIpSecGateway index="1">
+                    <SecGW value="10.211.55.16"/>
+                </X2CIpSecGateway>
+                <X2CIpSecGateway index="2">
+                    <SecGW value="10.211.55.17"/>
+                </X2CIpSecGateway>
+                <CMPv2Enabled value="TRUE"/>
+                <CMPv2CAServer value="2001:31:211:2::111"/>
+                <CMPv2URI value="http://commscope-ca.com:8080/ejbca/cmp/lowellcpt3f-89654"/>
+                <CMPv2Port value="9908"/>
+                <CMPv2SACertificateIdentifer value="lowellcpt3f-89654.commscope.com"/>
+            </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>
+</ServiceAreaSettings>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings srvpackid="ONECELL5GCU" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ServiceAreaDefinition useprofile="cuup-base">
+        <ServiceAreas>
+            <ServiceArea type="OperatorSpecific" value="5GCUUP_AUTOMATION">
+                <EPE1 id="1">
+                    <RemoteAddress value="10.211.51.16"/>
+                </EPE1>
+                <GNBId value="123"/>
+            </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>
+</ServiceAreaSettings>

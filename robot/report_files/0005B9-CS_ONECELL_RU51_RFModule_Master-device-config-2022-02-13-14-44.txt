@@ -1,0 +1,4 @@
+RP5100 Serial Number	RP5100 IP address	S/W version	H/W version	Location Name	RfTxPower	RP type	BandsSupported	Latitude Sign	Degrees Of Latitude	Degrees Of Longitude	Direction Of Altitude	Altitude	Antenna Type	BC Serial Number	Sector Instance
+0005B9423AB2_0005B9519AA1_1	10.208.75.118	6.0.00.064	xxxx	UNKNOWN::UNKNOWN		Non-Portal::Portal		North	1.3838887453079	0.0016734576058	Height	0	Internal	0005B9423AB2	1
+0005B97A13_0005B951D651_2	10.208.75.118	6.0.00.064	xxxx	UNKNOWN::UNKNOWN		Non-Portal::Non-Portal		North	1.3838887453079	0.0016734576058	Height	0	Internal	0005B97A13	2
+ipsec2-2051du1_0005B9514245_1

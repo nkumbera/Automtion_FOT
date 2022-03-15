@@ -1,0 +1,6 @@
+Configuration_Menu = 'id=Configuration'
+Product_SKU = 'id=productsku'
+SNMP = 'id=snmpconfiguration'
+SMTP = 'id=smtpconfiguration'
+EMAIL = 'id=emailTemplate'
+SMS = 'id=smsTemplate'

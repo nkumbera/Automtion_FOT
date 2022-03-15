@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityMappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+    <EntityMapping relationType="delete">
+        <PrimaryEntity id="ipsec2-2051cucp1" oui="0005B9" productClass="CS_ONECELL_CU-CP"/>
+        <SecondaryEntity id="977" oui="0005B9" productClass="LTE_Enterprise_C-RANSC_Cntrl"/>
+
+    </EntityMapping>
+</EntityMappings>

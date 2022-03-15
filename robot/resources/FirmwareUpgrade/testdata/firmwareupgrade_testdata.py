@@ -1,0 +1,20 @@
+# Device Firmware Upgrade
+import time
+
+RP_IMAGE_NAME = 'RP_Automation_Image'
+DEVICETYPE_NAME = '0005B9-LTE_Enterprise_C-RANSC_Cntrl'
+RP_IMAGE_VERSION = '6.0.00.100'
+RP_IMAGE_LOCATION = 'http://10.208.208.1/RP_OneImage_6.0.00.100.signed.bin'
+RP_FILE_SIZE = '6554566'
+FIRMWARE_USERNAME = 'dmsadmin'
+FIRMWARE_PASSWORD = 'airvana123'
+FIRMWARE_JOB_NAME = 'RP_Upgrade_Automation'
+FIRMWARE_MAC_ID = '0005B97A13'
+FIRMWARE_SPLIT_MAC_ID='0005B97A01'
+FIRMWARE_UPGRADE_JOB_NAME= 'Split_'+ str(round(time.time() * 1000))
+FIRMWARE_UPGRADE_JOB_NAME1= 'RDC_'+ str(round(time.time() * 1000))
+SPLIT_IMAGE_NAME= 'Split_Automation_Image'
+SPLIT_IMAGE_VERSION = '5.5.00.089'
+SPLIT_IMAGE_LOCATION = 'http://10.208.208.1/manish/OneCell-LTE-ver_5.5.00.087/BC_5.5.00.086.signed.bin_DOWNLOAD'
+RCA_IMAGE_LOCATION = 'http://10.212.2.12/manish/OneCell-LTE-ver_5.5.00.087/BC_5.5.00.086.signed.bin_DOWNLOAD'
+SPLIT_FILE_SIZE = '6554566'

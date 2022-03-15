@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><ServiceAreaSettings srvpackid="onecell" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ServiceAreaDefinition useprofile="5.5">
+        <ServiceAreas>
+            <ServiceArea type="OperatorSpecific" value="RDC">
+				<FirmWareImageServerDetails>
+					<FirmWareImageTransferServerURL value="sftp://10.212.2.12"/>
+					<FirmWareImageransferUsername value="root"/>
+					<FirmWareImageTransferPassword value="airvana123"/>
+				</FirmWareImageServerDetails>
+            </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>
+</ServiceAreaSettings>

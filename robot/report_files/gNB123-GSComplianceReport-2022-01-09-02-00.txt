@@ -1,0 +1,3 @@
+
+Site Location	gNBId	Device Type	DeviceID	Attribute	Deviation: Yes, No, ANC, ANA	GSValue	DMS Value
+Gold standard compliance data is not available

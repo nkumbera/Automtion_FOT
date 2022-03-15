@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VenueDetails>
+    <Venue name="Automation_Venue">
+        <Address>2812, Southwest Kansa Drive, Topeka, Shawnee County, Kansas, 66606, United States of America</Address>
+        <GeoLocBoundary>
+            <Coordinates boundaryType="Polygon">
+                <point>-95.71192909,39.06651764</point>
+                <point>-95.71191293,39.0655138</point>
+                <point>-95.70944831,39.0654636</point>
+                <point>-95.70952912,39.06679997</point>
+                <point>-95.71132303,39.06750892</point>
+                <point>-95.71192909,39.06651764</point>
+            </Coordinates>
+        </GeoLocBoundary>
+        <Buildings>
+            <Building name="Building_1">
+                <GeoLocBoundary>
+                    <Coordinates boundaryType="Polygon">
+                        <point>-95.71116567,39.06717733</point>
+                        <point>-95.71004808,39.06678893</point>
+                        <point>-95.70978997,39.06571875</point>
+                        <point>-95.71168455,39.06567743</point>
+                        <point>-95.71116567,39.06717733</point>
+                    </Coordinates>
+                </GeoLocBoundary>
+                <Floors>
+                    <Floor number="1" section="Ground Floor">
+                        <FloorplanImage>FloorPlanImage_Building_1_1_Ground Floor.png</FloorplanImage>
+                        <Calibration>
+                            <Point1>
+                                <Longitude>-95.71116567</Longitude>
+                                <Latitude>39.06717732999999</Latitude>
+                                <X_cordinate>484.64871350682756</X_cordinate>
+                                <Y_cordinate>8.09841724315406</Y_cordinate>
+                            </Point1>
+                            <Point2>
+                                <Longitude>-95.70978997000002</Longitude>
+                                <Latitude>39.065718749999974</Latitude>
+                                <X_cordinate>14.146782200345399</X_cordinate>
+                                <Y_cordinate>437.684196451351</Y_cordinate>
+                            </Point2>
+                        </Calibration>
+                    </Floor>
+                </Floors>
+            </Building>
+        </Buildings>
+    </Venue>
+    <VenueAssociation>
+        <ProfileAssociation>
+            <Venue name="Automation_Venue">
+                <DeviceType oui="0005B9" productClass="LTE_Enterprise_C-RANSC_Cntrl">
+                    <OperatorSpecific serviceArea="BC_Automation_1" priority="1"/>
+                </DeviceType>
+                <DeviceType oui="0005B9" productClass="CS_ONECELL_DU">
+                    <OperatorSpecific serviceArea="ipsec2-2051du1_1" priority="1"/>
+                </DeviceType>
+                <DeviceType oui="0005B9" productClass="CS_ONECELL_CU-CP">
+                    <OperatorSpecific serviceArea="ipsec2-2051cucp1_1" priority="1"/>
+                </DeviceType>
+                <DeviceType oui="0005B9" productClass="CS_ONECELL_CU-UP">
+                    <OperatorSpecific serviceArea="ipsec2-2051cuup1_1" priority="1"/>
+                </DeviceType>
+            </Venue>
+        </ProfileAssociation>
+    </VenueAssociation>
+    <Devices>
+        <Topology venue="Automation_Venue" building="Building_1" floor="1" floorSection="Ground Floor">
+            <Devices_Type oui="0005B9" productClass="CS_ONECELL_RU51">
+                <Device serialNumber="0005B9423AB2_0005B9519AA1_1">
+                    <X_cordinate>320.0429940238541</X_cordinate>
+                    <Y_cordinate>392.3333358764644</Y_cordinate>
+                    <Longitude>-95.71111564</Longitude>
+                    <Latitude>39.06587716</Latitude>
+                </Device>
+                <Device serialNumber="ipsec2-2051du1_0005B9514245_1">
+                    <X_cordinate>407.0429940238541</X_cordinate>
+                    <Y_cordinate>412.3333358764644</Y_cordinate>
+                    <Longitude>-95.71083904</Longitude>
+                    <Latitude>39.06658165</Latitude>
+                </Device>
+            </Devices_Type>
+            <Devices_Type oui="0005B9" productClass="CS_ONECELL_CU-CP">
+                <Device serialNumber="ipsec2-2051cucp1">
+                    <X_cordinate>90.0429940238541</X_cordinate>
+                    <Y_cordinate>164.3333358764644</Y_cordinate>
+                    <Longitude>-95.71088997</Longitude>
+                    <Latitude>39.06694006</Latitude>
+                </Device>
+            </Devices_Type>
+            <Devices_Type oui="0005B9" productClass="CS_ONECELL_CU-UP">
+                <Device serialNumber="ipsec2-2051cuup1">
+                    <X_cordinate>278.0429940238541</X_cordinate>
+                    <Y_cordinate>72.3333358764644</Y_cordinate>
+                    <Longitude>-95.71111104</Longitude>
+                    <Latitude>39.06711575</Latitude>
+                </Device>
+            </Devices_Type>
+            <Devices_Type oui="0005B9" productClass="LTE_Enterprise_C-RANSC_Cntrl">
+                <Device serialNumber="0005B9423AB2">
+                    <X_cordinate>330.0429940238541</X_cordinate>
+                    <Y_cordinate>134.63333358764644</Y_cordinate>
+                    <Longitude>-95.71111335</Longitude>
+                    <Latitude>39.06602179</Latitude>
+                </Device>
+            </Devices_Type>
+            <Devices_Type oui="0005B9" productClass="CS_ONECELL_DU">
+                <Device serialNumber="ipsec2-2051du1">
+                    <X_cordinate>161.0429940238541</X_cordinate>
+                    <Y_cordinate>375.3333358764644</Y_cordinate>
+                    <Longitude>-95.70999926</Longitude>
+                    <Latitude>39.06588776</Latitude>
+                </Device>
+            </Devices_Type>
+        </Topology>
+    </Devices>
+</VenueDetails>

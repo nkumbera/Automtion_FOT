@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" srvpackid="ONECELL5GCU" >
+    <ServiceAreaDefinition useprofile="cucp-base">
+		<ServiceAreas>
+			<ServiceArea type="OperatorSpecific" value="5gServiceArea"> 
+                <GNBId value="2023" />
+				<vesUserName value="dmsadmin2" />
+				<vesPassWord value="dmsadmin@1234" />
+				<vesURL value="http://10.211.1.11:7001/eventListener/v19" />
+                <PLMNId> 
+                	<MCC value="586"/>
+                    <MNC value="79"/>
+                </PLMNId>
+			
+                <NRCellCU id="1">  <!-- index change to id then data type  as per the design doc --> 
+                    <CellLocalId value="12"/>
+                    <PLMNInfoList>
+                        <MCC value="576"/> <!-- Level 3 paramter which comes directly under Level 2 parameter -->
+                        <MNC value="70"/>
+                    </PLMNInfoList>
+                  
+                </NRCellCU>
+				<EPX2C id="1"> 
+					<RemoteAddress value="10.211.55.19"/>
+				</EPX2C>
+				<EPX2C id="2">
+					<RemoteAddress value="10.211.55.19"/>
+				</EPX2C>
+            </ServiceArea>
+        </ServiceAreas>
+    </ServiceAreaDefinition>
+</ServiceAreaSettings>

@@ -1,0 +1,1 @@
+DMS_UI_URL =  'http://10.211.240.89:7001/deviceconsole'

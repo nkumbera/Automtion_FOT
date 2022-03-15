@@ -1,0 +1,13 @@
+RP Serial Number	RP IP address	S/W version	H/W version	Location Name	RfTxPower	RP type	BandsSupported ID	Latitude Sign	Degrees Of Latitude	Degrees Of Longitude	Direction Of Altitude	Altitude	Antenna Type	BC Serial Number	Sector Instance
+0005B9431B1F	10.223.3.21	6.0.00.181		UNKNOWN::UNKNOWN	127::19127	Spare::Spare		South	22.9998779296875	23.9996981620788	Depth	12358	Internal	0005B94238A0	1
+0005B9431B2B	10.223.5.44	6.0.00.192		UNKNOWN::UNKNOWN	127::1270	Spare::Spare		North	1.2863016128540	9.8702073097229	Depth	0	Internal	0005B9000083	1
+0005B9431B30	10.223.5.33	6.0.00.192		UNKNOWN::UNKNOWN	127::1270	Spare::Spare		North	1.2863016128540	9.8702073097229	Depth	0	Internal	0005B9000083	1
+0005B9ABB01	10.208.75.102	4.5.00.125		Bellandur::Bellandur	15::20	Spare::Spare		North	1.3934376239776	0.0016712902307	Depth	512	External	0005B97A15	1
+0005B9ABB02	10.208.75.101	4.5.00.125		Bellandur::Bellandur	15::21	Spare::Spare		South	1.3934376239776	0.0016712902307	Depth	512	External	0005B97A15	1
+0005B9ABB1				Marathahalli::Marathahalli										0005B97A05
+0005B9ABB2				Bellandur::Bellandur										0005B97A05
+0005B9ABB5				Marathahalli::Marathahalli										0005B97A03
+0005B9ABB6				Bellandur::Bellandur										0005B97A03
+0005B9ABB7		4.5.00.125		Marathahalli::Marathahalli		Spare::								0005B925A02
+0005B9ABB8		4.5.00.125		Bellandur::Bellandur		Portal::								0005B925A02
+0005B9ABB9	10.208.75.101	4.5.00.125		Marathahalli::Bellandur	::21	Portal::Portal		South	1.3934376239776	0.0016712902307	Height	512	External	0005B97A09	6

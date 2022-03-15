@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceAreaSettings srvpackid="onecell"
+
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   
+    <ServiceAreaDefinition useprofile="4.5">
+
+	 <ServiceArea type="OperatorSpecific" value="MinimumPnP">
+		<LocalTimeZone value="IST+5:30"/>
+                <S1SigLinkServerList value="2001:5::21:195,2001:5::21:196"/>
+		<X_0005B9_numSectorsPerBC value="1" />
+		<IPSec_Enable  value="TRUE" />
+		<S1ConnectionMode value="All" />
+		<EAID value="202" />
+		<EnableNGRPUpgrade value="TRUE" />
+            	<EnablePlatformManagement value="TRUE" />
+		<ENBCellMode>
+                    <ENodeBIdRange value="1701..1800" />
+                </ENBCellMode>
+
+			<Sector id="1">
+				<PhyCellID value="100"/>
+				<EARFCNDL value="8150"/>
+				<ULBandwidth value="100"/>
+				<DLBandwidth value="100"/>
+				<RootSequenceIndex value="1,12"/>
+				<EARFCNUL value="26150"/>
+				<TACList value="1"/>
+				<X_0005B9_Enable4X4MIMO value="TRUE" />
+				<PLMN index="1">
+					<Alias value="cpe-101"/>
+					<PLMNID value="302610"/>
+					<Enable value="true"/>
+                    			<IsPrimary value="false"/>
+               			 </PLMN>
+				 <PLMN index="2">
+					<Alias value="cpe-102"/>
+					<PLMNID value="302660"/>
+					<Enable value="true"/>
+                    			<IsPrimary value="false"/>
+               			 </PLMN>
+				<PLMN index="3">
+					<Alias value="cpe1"/>
+					<PLMNID value="310260"/>
+					<Enable value="true"/>
+                    			<IsPrimary value="true"/>
+               			 </PLMN>
+
+
+
+                	</Sector>
+                	<Sector id="2">
+				<PhyCellID value="200"/>
+				<EARFCNDL value="8150"/>
+				<ULBandwidth value="100"/>
+				<DLBandwidth value="100"/>
+				<RootSequenceIndex value="20"/>
+				<EARFCNUL value="26150"/>
+				<TACList value="1"/>
+				<PLMN index="1">
+					<Alias value="cpe-101"/>
+					<PLMNID value="302610"/>
+					<Enable value="true"/>
+                    			<IsPrimary value="false"/>
+               			 </PLMN>
+				 <PLMN index="2">
+					<Alias value="cpe-102"/>
+					<PLMNID value="302660"/>
+					<Enable value="true"/>
+                    			<IsPrimary value="false"/>
+               			 </PLMN>
+				<PLMN index="3">
+					<Alias value="cpe1"/>
+					<PLMNID value="310260"/>
+					<Enable value="true"/>
+                    			<IsPrimary value="true"/>
+               			 </PLMN>
+
+
+                	</Sector>
+
+
+</ServiceArea>
+
+
+    </ServiceAreaDefinition>
+
+
+</ServiceAreaSettings>

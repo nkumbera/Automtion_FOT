@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAreaSettings
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" srvpackid="ONECELL5GDU">
+	<ServiceAreaDefinition useprofile="base">
+		<ServiceAreas>
+			<ServiceArea type="OperatorSpecific" value="MinimumPnP">
+				
+				<GNBId value="122444"/>
+                <EPF1C id="1">
+                    <RemoteAddress value="1.1.3.1"/>
+                </EPF1C>
+				<vesUserName value="dmsadmin3" />
+				<vesPassWord value="dmsadmin@12345" />
+				<vesURL value="https://10.212.2.11:7001/eventLister/v22" /> 
+				<ConfigurableCells value="cellindex_1,cellindex_2" />
+				<NRCellDU id="cellindex_1">  <!-- index change to id then data type as per the design doc -->				
+					<!--Int32 -->
+					<CellLocalId value="8758" />
+					<NRPCI value="21" />
+					<NRTAC value="20" />
+					<ARFCNDL value="2121" />
+					<ARFCNUL value="19" />
+					<BSChannelBwDL value="18" />
+					<BSChannelBwUL value="17" />
+					<SSBSubCarrierSpacing value="120" />
+
+					<NRSectorCarrierRef value="String" />
+					<!--uint16 -->
+					<CellGroupId value="16" /> <!--uint16 -->
+					<OffsetToPointA value="14" />
+					<!--int32 -->
+					<NRFreqBandDL value="13" />
+					<NRSCSDL value="12" />
+					<!--uint32 -->
+					<DuSonId value="11" />
+					<RootSequenceIndex	value="10"/>
+
+						<PLMNInfoList>
+							<MCC value="507" /> <!-- Level 3 paramter which comes directly under Level 2 parameter -->
+							<MNC value="94" />
+							<Enable value="true" />
+							<isPrimary value="true" />
+						</PLMNInfoList>
+					
+				</NRCellDU>
+				<NRCellDU id="cellindex_2">  <!-- index change to id then data type as per the design doc -->				
+					<!--Int32 -->
+					<CellLocalId value="9767" />
+					<NRPCI value="34" />
+					<NRTAC value="33" />
+					<ARFCNDL value="32" />
+					<ARFCNUL value="31" />
+					<BSChannelBwDL value="30" />
+					<BSChannelBwUL value="29" />
+					<SSBSubCarrierSpacing value="120" />
+
+					<NRSectorCarrierRef value="integre" />
+					<!--uint16 -->
+					<CellGroupId value="27" /> <!--uint16 -->
+					<OffsetToPointA value="26" />
+					<!--int32 -->
+					<NRFreqBandDL value="25" />
+					<NRSCSDL value="24" />
+					<!--uint32 -->
+					<DuSonId value="23" />
+					<RootSequenceIndex	value="22"/>
+
+						<PLMNInfoList>
+							<MCC value="606" /> <!-- Level 3 paramter which comes directly under Level 2 parameter -->
+							<MNC value="64" />
+							<Enable value="true" />
+							<isPrimary value="true" />
+						</PLMNInfoList>
+					
+				</NRCellDU>
+				<NRCellDU id="cellindex_3">  <!-- index change to id then data type as per the design doc -->				
+					<!--Int32 -->
+					<CellLocalId value="8759" />
+					<NRPCI value="22" />
+					<NRTAC value="21" />
+					<ARFCNDL value="2120" />
+					<ARFCNUL value="20" />
+					<BSChannelBwDL value="19" />
+					<BSChannelBwUL value="20" />
+					<SSBSubCarrierSpacing value="120" />
+
+					<NRSectorCarrierRef value="String" />
+					<!--uint16 -->
+					<CellGroupId value="16" /> <!--uint16 -->
+					<OffsetToPointA value="14" />
+					<!--int32 -->
+					<NRFreqBandDL value="13" />
+					<NRSCSDL value="12" />
+					<!--uint32 -->
+					<DuSonId value="11" />
+					<RootSequenceIndex	value="10"/>
+
+						<PLMNInfoList>
+							<MCC value="508" /> <!-- Level 3 paramter which comes directly under Level 2 parameter -->
+							<MNC value="98" />
+							<Enable value="true" />
+							<isPrimary value="true" />
+						</PLMNInfoList>
+					
+				</NRCellDU>
+			</ServiceArea>
+		</ServiceAreas>
+	</ServiceAreaDefinition>
+</ServiceAreaSettings>

@@ -1,0 +1,1 @@
+Map_Details_Menu = 'id=DC_Menu_mapdetail_ID'

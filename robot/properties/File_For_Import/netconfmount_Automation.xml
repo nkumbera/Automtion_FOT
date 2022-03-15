@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<netconf-device>
+    <deviceList>
+        <device>
+            <id>sicomm-8001cucp1</id>
+            <oui>0005B9</oui>
+            <productClass>CS_ONECELL_CU-CP</productClass>
+            <ipaddress>10.212.22.106</ipaddress>
+            <port>5001</port>
+            <swVersion>6.0.6</swVersion>
+            <userName>root</userName>
+            <key>
+                <password>root</password>
+            </key>
+        </device>
+        <device>
+            <id>sicomm-8001cuup1</id>
+            <oui>0005B9</oui>
+            <productClass>CS_ONECELL_CU-UP</productClass>
+            <ipaddress>10.212.22.106</ipaddress>
+            <port>5002</port>
+            <swVersion>6.0.6</swVersion>
+            <userName>root</userName>
+            <key>
+                <password>root</password>             
+            </key>
+        </device>
+        <device>
+            <id>sicomm-8001du1</id>
+            <oui>0005B9</oui>
+            <productClass>CS_ONECELL_DU</productClass>
+            <ipaddress>10.212.22.106</ipaddress>
+            <port>5003</port>
+            <swVersion>6.0.6</swVersion>
+            <userName>root</userName>
+            <key>
+                <password>root</password>
+            </key>
+        </device>
+    </deviceList>
+</netconf-device>
