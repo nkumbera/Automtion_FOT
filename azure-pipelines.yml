@@ -30,7 +30,7 @@ steps:
     pip install -r requirements.txt
     pip install robotframework
     pip install robotframework-seleniumlibrary 
-    # && npm install chromedriver
+    npm install chromedriver
   displayName: 'Install dependencies'
 
 - powershell: python run_test.py -i sanity
