@@ -33,5 +33,5 @@ steps:
     npm install chromedriver
   displayName: 'Install dependencies'
 
-- powershell: python run_test.py -i sanity
+- powershell: python run_test.py -i verify_pnp
   displayName: 'Run Robottest'
