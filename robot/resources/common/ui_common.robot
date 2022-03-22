@@ -17,7 +17,7 @@ Prepare Selenium Driver
     [Documentation]    Set chromedriver path
     Log     ${EXECDIR}
     #Set Environment Variable  webdriver.chrome.driver  ${EXECDIR}\\robot\\chromedriver.exe
-    Set Environment Variable  webdriver.chrome.driver    D:/a/1/s/node_modules/chromedriver/lib/chromedriver/chromedriver.exe
+    Create Webdriver Chrome  executable_path=D:/a/1/s/node_modules/chromedriver/lib/chromedriver/chromedriver.exe
 
 DMS UI Login
     [Documentation]    Log in DMS UI as DMS Admin
